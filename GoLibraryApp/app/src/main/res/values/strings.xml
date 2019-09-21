@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GoLibraryApp</string>
+    <string-array name="numbers">
+        <item>one</item>
+        <item>one</item>
+        <item>one</item>
+        <item>one</item>
+        <item>one</item>
+        <item>one</item>
+        <item>one</item>
+        <item>one</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#000000"
+    tools:context=".MainActivity">
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:fillViewport="true">
+ <androidx.cardview.widget.CardView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     app:cardCornerRadius="50dp"
+     android:layout_marginTop="10dp"
+     android:layout_marginLeft="10dp"
+     android:layout_marginRight="10dp"
+     android:layout_marginBottom="10dp">
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+<androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:background="@drawable/edittextstyle"
+    app:title="GoLibraryApp"
+    app:subtitle="Add Category"
+    app:titleMarginStart="30dp"
+ android:id="@+id/toolbar4"/>
+
+
+   <Button
+       android:layout_below="@+id/toolbar4"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="5dp"
+       android:text="Select Image"
+       android:layout_marginTop="5dp"
+       android:background="@drawable/edittextstyle"
+       android:id="@+id/button_choose"/>
+    <EditText
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Category Name"
+        android:background="@drawable/edittextstyle"
+        android:id="@+id/edit_text_fn"
+        android:layout_toEndOf="@+id/button_choose"
+        android:layout_marginStart="16dp"/>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+  android:layout_below="@+id/edit_text_fn"
+        android:layout_above="@+id/progress_bar"
+        android:layout_marginTop="16dp"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_above="@+id/button_upload"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_upload"
+        android:text="upload"
+        android:background="@drawable/edittextstyle"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="68dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Uploads"
+        android:background="@drawable/edittextstyle"
+        android:id="@+id/textviewUploads"
+        android:layout_alignBaseline="@+id/button_upload"
+        android:layout_alignBottom="@+id/button_upload"
+        android:layout_marginStart="25dp"
+        android:layout_toEndOf="@+id/button_upload"
+        android:textSize="16sp"
+        android:gravity="center"/>
+ </RelativeLayout>
+ </androidx.cardview.widget.CardView>
+ </ScrollView>
+</RelativeLayout>

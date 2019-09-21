@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "178858769326",
+    "firebase_url": "https://golibraryapp-2059b.firebaseio.com",
+    "project_id": "golibraryapp-2059b",
+    "storage_bucket": "golibraryapp-2059b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178858769326:android:ff6f537b8fd5e5f190263f",
+        "android_client_info": {
+          "package_name": "shebi.library.golibraryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178858769326-0229u1l0i9ogru4lq5mr98luh13ibbrj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shebi.library.golibraryapp",
+            "certificate_hash": "65b0d9393b7ab6060be20aae82c7bf5a4d64b76b"
+          }
+        },
+        {
+          "client_id": "178858769326-sqqjacrjvg2jmqlia14h4khbvbpedqk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf-tj8Opmn-RsXyiSi39vN6N52TSGQZ80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178858769326-sqqjacrjvg2jmqlia14h4khbvbpedqk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
